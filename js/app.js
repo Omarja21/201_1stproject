@@ -56,7 +56,7 @@ if (Questionfive== 'Y'|| Questionfive=='YES' ){
 document.getElementById("test").innerHTML= "And these were your answers for the Questions: "+ "<br>" +  "Do I love cookies?" + QuestionOne + "<br>" +" Am I over 18? " + QuestionTwo +"<br>" +
  " Do you think I support  barcelona? " + QuestionThree +"<br>" + " Do you think I like mansaf? " + Questionfour + "<br>" +" Do you think I love programming? " + Questionfive ; 
 
-for(var i=1; i<=3; i++){
+for(var i=0; i<=3; i++){
     let strsix =  prompt("guess the number I like?");
     let Questionsix = parseInt(strsix);
     if (Questionsix>7){
