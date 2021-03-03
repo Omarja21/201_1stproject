@@ -1,4 +1,4 @@
- 
+'use strict';
     let Greeting =prompt("What is you Name Good sir?")
     
     document.getElementById("welcome").innerHTML= "Hello " + Greeting + " nice to see this lovely name <3"
@@ -11,8 +11,8 @@ let count=0;
 let strOne= prompt("Do I love cookies?");
 let strTwo= prompt("Am I over 18?");
 let strThree= prompt("Do you think I support  barcelona?");
-let strFour = prompt("Do you think I like mansaf?");
-let strFive = prompt("Do you think I love programming?");
+let strFour= prompt("Do you think I like mansaf?");
+let strFive= prompt("Do you think I love programming?");
 
 
 let QuestionOne= strOne.toUpperCase();
