@@ -14,6 +14,8 @@ let strThree= prompt("Do you think I support  barcelona?");
 let strFour= prompt("Do you think I like mansaf?");
 let strFive= prompt("Do you think I love programming?");
 
+function guessgame(){
+
 
 let QuestionOne= strOne.toUpperCase();
 let QuestionTwo= strTwo.toUpperCase();
@@ -55,7 +57,8 @@ if (Questionfive== 'Y'|| Questionfive=='YES' ){
 }
 document.getElementById("test").innerHTML= "And these were your answers for the Questions: "+ "<br>" +  "Do I love cookies?" + QuestionOne + "<br>" +" Am I over 18? " + QuestionTwo +"<br>" +
  " Do you think I support  barcelona? " + QuestionThree +"<br>" + " Do you think I like mansaf? " + Questionfour + "<br>" +" Do you think I love programming? " + Questionfive ; 
-
+}
+guessgame();
 for(var i=0; i<=3; i++){
     let strsix =  prompt("guess the number I like?");
     let Questionsix = parseInt(strsix);
@@ -104,3 +107,4 @@ for (let i = 1; i <= 6; i++) {
     }
 }
 alert('you get '+ count+ ' of 7');
+alert('thanks you for playing my game');
