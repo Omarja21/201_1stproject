@@ -1,0 +1,14 @@
+p {
+   background-color: aqua;
+
+
+}
+body{
+    background-color: crimson;
+    display: inline-block;
+    font-style: italic;
+}
+ul{
+    border: darkgreen groove;
+    border-radius: 8px;
+}
